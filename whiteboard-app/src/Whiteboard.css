@@ -1,0 +1,32 @@
+.whiteboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.whiteboard-header {
+    margin-bottom: 20px;
+}
+
+.whiteboard-header button {
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.whiteboard-header .logout-button {
+    background-color: red;
+    color: white;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls label {
+    margin: 0 10px;
+}
+
+.controls input {
+    margin: 0 10px;
+}
