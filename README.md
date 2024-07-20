@@ -34,24 +34,25 @@ Prerequisites
   PostgreSQL database
   
 Backend Setup
-  . cd backend
-  . npm install
+  1. cd backend
+  2. npm install
   
-  Open config.js and update it with your PostgreSQL database connection details.
+  3. vim config.js
+     (update it with your PostgreSQL database connection details)
   
   Create a user to login into the application:
   Run the following script to add a new user:
-    . node scripts/addUser.js 'username' 'password' 
+    4. node scripts/addUser.js 'username' 'password' 
       (Replace 'username' and 'password' with your desired credentials. These parameters are optional)
 
-  . node server.js
+  5. node server.js
 
 Frontend Setup
-  . cd whiteboard-app
-  . npm install
-  . npm start
+  1. cd whiteboard-app
+  2. npm install
+  3. npm start
   
 Navigate to http://localhost:3000 in your web browser.
 
 Login to the application:
-  . Use the username and password you created earlier to log in.
+  4. Use the username and password you created earlier to log in.
